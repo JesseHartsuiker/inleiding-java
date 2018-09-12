@@ -1,3 +1,4 @@
+package h02;
 /*
 
 @(#)Show.java 1.0 03/02/26

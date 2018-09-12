@@ -5,8 +5,16 @@ import java.awt.*;
 import java.applet.*;
 
 public class h052 extends Applet {
+    int valerie;
+    int valeriey;
+
+
+
 
     public void init() {
+
+ valerie = 80;
+ valeriey = 60;
     }
 
     public void paint(Graphics g) {
@@ -25,8 +33,8 @@ public class h052 extends Applet {
         g.drawString("Hans", 165, 160);
         g.drawString("Jeroen", 200, 160);
         g.setColor(Color.red);
-        g.fillRect(120, 100, 40, 40);
-        g.drawRect(120, 100, 40, 40);
+        g.fillRect(120, valeriey, 40, valerie);
+        g.drawRect(120, valeriey, 40, valerie);
         g.setColor(Color.blue);
         g.fillRect(160, 65, 40, 75);
         g.drawRect(160, 65, 40, 75);

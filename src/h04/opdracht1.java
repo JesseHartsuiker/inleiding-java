@@ -1,3 +1,4 @@
+package h04;
 //Voorbeeld 4.1
 
 import java.awt.*;
