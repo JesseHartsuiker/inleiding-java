@@ -27,7 +27,7 @@ public class Praktijkopdracht extends Applet {
         Plusknop.addActionListener(new Plusknoplistener());
         Deelknop = new Button ("/");
         Deelknop.addActionListener(new Deelknoplistener());
-        Keerknop = new Button("*");
+        Keerknop = new Button("x");
         Keerknop.addActionListener(new Keerknoplistener());
         add(Minknop);
         add(Plusknop);
